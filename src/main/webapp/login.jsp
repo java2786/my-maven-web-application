@@ -12,7 +12,7 @@
 
 
 
-<form action="/web08_session/login" method="post">
+<form action="${pageContext.request.contextPath}/login" method="post">
 	
 	Email: <input type="email" name="email"  required="required" /><br/>
 	Password: <input type="text" name="password"  required="required" /><br/>
